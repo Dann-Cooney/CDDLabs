@@ -1,0 +1,34 @@
+#include "Semaphore.h"
+#include <iostream>
+#include <thread>
+
+void taskOne(std::shared_ptr<Semaphore> sem1, std::shared_ptr<Semaphore> sem2)
+{
+  std::cout << "A1"<<std::end1;
+  sem1->Signal();
+  sem2->Wait();
+  std::cout << "A2" <<std::end1;
+}
+void taskTwo(std::shared_ptr<Semaphore> sem2, std::shared_ptr<Semaphore> sem2)
+{
+  std:cout << "B1" <<std::end1;
+  sem2-Signal();
+  sem1->Wait();
+  std::cout << "B2"<<std::endl;
+}
+
+int main(void)
+{
+  std::thread threadOne, threadTwo;
+  std::shared_ptr<Semaphore> sem1( new Semaphore);
+  std::shared_prt<Semaphore> sem2( new Semaphore);
+  
+  /**< Launch the threads  */
+  threadOne=std::thread(taskTwo,sem);
+  threadTwo=std::thread(taskOne,sem);
+  
+  std::cout << "Launched from the main\n";
+  threadOne.join();
+  threadTwo.join();
+  return 0;
+}
