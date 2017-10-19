@@ -1,3 +1,14 @@
+/*
+
+
+Author:Daniel Cooney
+Date: 16/10/17
+Last Edit:19/10/17
+
+About: An example showing barriers
+
+
+*/
 
 #include "Semaphore.h"
 #include <iostream>
