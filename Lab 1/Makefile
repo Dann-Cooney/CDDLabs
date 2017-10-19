@@ -1,4 +1,8 @@
-//author:Daniel Cooney
+/*
+Author:Daniel Cooney
+Date:9/10/17
+Lastest Edit: 18/10/17
+*/
 
 CC=g++
 CFLAGS= -std=c++11 -pthread
