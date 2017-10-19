@@ -1,4 +1,14 @@
-//Author:Daniel Cooney
+/*
+
+
+Author:Daniel Cooney
+Date: 9/10/17
+Last Edit:19/10/17
+
+Project: Rendezvous
+
+
+*/
 
 #include "Semaphore.h"
 #include <iostream>
