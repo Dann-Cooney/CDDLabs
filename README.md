@@ -3,7 +3,7 @@
 * **Daniel Cooney**
 
 
-## Lab One – Signalling with Semaphores
+### Lab One – Signalling with Semaphores
 
 
 
