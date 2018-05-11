@@ -6,7 +6,13 @@ These lab exercises are apart of the 4th YearConcurrent and Distributed Applicat
 ### Contents
 
 ```
-Give 
+Lab 1:
+```
+```
+Lab 2:
+```
+```
+Lab 3:
 ```
 
 
