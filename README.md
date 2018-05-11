@@ -1,6 +1,6 @@
 # Distributed and Concurrent Device Development
 
-These lab exercises are apart of the 4th YearConcurrent and Distributed Application Development module for the Bsc Software Development course, IT Carlow.
+These lab exercises are apart of the 4th Year Concurrent and Distributed Application Development module for the Bsc Software Development course, IT Carlow.
 
 
 ### Contents
@@ -12,10 +12,10 @@ Lab 1:
 Lab 2:
 ```
 ```
-Lab 3:
+Lab 3: Mutex
 ```
 ```
-Lab 4:
+Lab 4: Barriers
 ```
 ```
 Lab 5:
