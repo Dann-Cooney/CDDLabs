@@ -1,9 +1,9 @@
 # Distributed and Concurrent Device Development
 
-* **Daniel Cooney**
+* *Daniel Cooney*
 
 
-### Lab One – Signalling with Semaphores
+## Lab One – Signalling with Semaphores
 
 
 
