@@ -6,10 +6,10 @@ These lab exercises are apart of the 4th Year Concurrent and Distributed Applica
 ### Contents
 
 ```
-Lab 1:
+Lab 1: Semaphores
 ```
 ```
-Lab 2:
+Lab 2: Rendezvous
 ```
 ```
 Lab 3: Mutex
